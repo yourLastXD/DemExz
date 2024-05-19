@@ -31,6 +31,11 @@ namespace DemExz.Pages
                 users = db.Users.ToList();
 
                 SelectedUser.ItemsSource = users;
+                users[1].RoleId = 1;
+                db.Users.Update(users[1]);
+                db.Users.Remove(users[0]);
+                db.SaveChanges();
+
             }
         }
     }

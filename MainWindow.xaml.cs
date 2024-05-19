@@ -23,7 +23,7 @@ namespace DemExz
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Content = new Log();
+            MainFrame.Content = new AllUsers();
             //Строка подключения к бд
             //Scaffold-DbContext "Server=localhost\SQLEXPRESS;Database=AccountingOfEmployeesInTheOrganization;Trusted_Connection=True;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Data" -force
         }
