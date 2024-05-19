@@ -24,4 +24,18 @@
                NavigationUIVisibility="Hidden" />
         <ui:SnackbarPresenter x:Name="MainSnackbarPresenter" Grid.Row="1" />
     </Grid>
+
+    <!--<ui:ListView Name="SelectEmployee"
+                     Grid.Column="0"
+                     MouseDoubleClick="SelectEmployee_OnMouseDoubleClick"
+                     SelectedItem="SelectedItem">
+        <ListView.View>
+            <GridView>
+                <GridViewColumn DisplayMemberBinding="{Binding Path=Surname}">Фамилия</GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding Path=Name}">Имя</GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding Path=Patronomic}">Отчество</GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding Path=PhoneNumber}">Номер телефона</GridViewColumn>
+            </GridView>
+        </ListView.View>
+    </ui:ListView>-->
 </ui:FluentWindow>

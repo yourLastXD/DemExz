@@ -24,6 +24,7 @@ namespace DemExz
         {
             InitializeComponent();
             MainFrame.Content = new AllUsers();
+            //SelectEmployee.ItemsSource = humansDataGrid;
             //Строка подключения к бд
             //Scaffold-DbContext "Server=localhost\SQLEXPRESS;Database=AccountingOfEmployeesInTheOrganization;Trusted_Connection=True;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Data" -force
         }
